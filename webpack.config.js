@@ -5,7 +5,7 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'), 
-    publicPath: 'https://pralaye1209.github.io/cardproduct/', 
+    publicPath: '/cardproduct/', 
   },
   module: {
     rules: [

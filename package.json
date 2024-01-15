@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://pralaye1209.github.io/cardproduct/",
  "scripts": {
   "start": "webpack serve --mode development --open --port 8080",
   "build": "webpack --mode production",

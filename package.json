@@ -3,12 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "start": "webpack serve --mode development --open",
-    "build": "webpack --mode production",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d dist"
-  },
+ "scripts": {
+  "start": "webpack serve --mode development --open --port 8080",
+  "build": "webpack --mode production",
+  "deploy": "gh-pages -d dist" 
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
